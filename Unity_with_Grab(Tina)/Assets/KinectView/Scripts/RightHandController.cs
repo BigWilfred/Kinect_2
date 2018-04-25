@@ -48,13 +48,21 @@ public class RightHandController : MonoBehaviour {
         }
 
         //creates initial bin + brench
-    	 if (collisionManager.CheckHandsShowing() && GameObject.Find("bin(Clone)") == null) {
+    	 if (collisionManager.CheckHandsShowing() && GameObject.Find("bin") == null) {
 			
 			/* Tina: Don't think we need the tester as it just create a random new gameobject
             Transform tester = new GameObject().transform;
 
             Debug.Log(tester.ToString());
             GameObject newBin = Instantiate(bin, tester);*/
+
+			// destroy the crowd once the hand is activated
+			if (GameObject.Find ("crowd") != null) {
+				Destroy(GameObject.Find ("crowd"));
+			}
+			if (GameObject.Find ("crowd1") != null) {
+				Destroy(GameObject.Find ("crowd1"));
+			}
 
 			GameObject newBin = Instantiate(bin);
 			GameObject newBrench = Instantiate(brench);

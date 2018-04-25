@@ -7,6 +7,7 @@ using UnityEngine;
 public class AnimationAndMovement : MonoBehaviour {
 	public GameObject bin;
 	public GameObject brench;
+	public GameObject part;
 	public Sprite personOnBrench;
 	private Vector3 location;
 	private float speed = 2f;
@@ -16,7 +17,8 @@ public class AnimationAndMovement : MonoBehaviour {
 	void Start () {
 		// start position to move to
 		location.x = 14.19f;
-		location.y = -2.375f;
+		//location.x = -8.19f;
+		location.y = -2.35f;
 	}
 	
 	// Update is called once per frame
@@ -39,11 +41,15 @@ public class AnimationAndMovement : MonoBehaviour {
 
 	void OnTriggerEnter (Collider col)
 	{
-		if (col.gameObject.name == "brench"){
+		if (col.gameObject.name == "bench"){
 			location = transform.position;
 			Destroy (gameObject);
 			SpriteRenderer brenchSprite = col.gameObject.GetComponent<SpriteRenderer>();
 			brenchSprite.sprite = personOnBrench;
+			if (GameObject.Find ("PersonParts") == null) {
+				GameObject newpart = Instantiate (part);
+				newpart.name = "PersonParts";
+			}
 		}
 	}
 		

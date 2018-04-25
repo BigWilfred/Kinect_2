@@ -12,6 +12,9 @@ public class CollisionManager : MonoBehaviour {
     private CollisionCheck rightSide;
     private Color colour;
 
+	private GameObject crowd;
+	private GameObject crowd1;
+
     private float timerLimit = 5.0f;
 
     private bool handsShowing = false;

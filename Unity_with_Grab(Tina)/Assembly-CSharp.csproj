@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{66F367A7-B629-9C38-C37C-FF76E68DDF0D}</ProjectGuid>
+    <ProjectGuid>{BC305FE7-B018-9FD4-1353-6813BC83BDC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,10 +54,12 @@
      <Compile Include="Assets\KinectView\Scripts\AnimationAndMovement.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BreakAway.cs" />
      <Compile Include="Assets\KinectView\Scripts\CollisionCheck.cs" />
      <Compile Include="Assets\KinectView\Scripts\CollisionManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\crowdTimer.cs" />
      <Compile Include="Assets\KinectView\Scripts\DepthSourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\DepthSourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\DisableOnStart.cs" />
@@ -68,6 +70,8 @@
      <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\OutsideCameraDetection.cs" />
      <Compile Include="Assets\KinectView\Scripts\RightHandController.cs" />
+     <Compile Include="Assets\KinectView\Scripts\RightHandController1.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ShowStats.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -92,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CBEE244D-A2B8-A9FF-520C-7709330A8216}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{43E9D524-16AF-EBED-61E1-AB5AB13702FF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

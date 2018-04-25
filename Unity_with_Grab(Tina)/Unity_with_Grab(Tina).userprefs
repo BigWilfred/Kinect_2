@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\KinectView\Scripts\RightHandController1.cs">
+    <Files>
+      <File FileName="Assets\KinectView\Scripts\CollisionManager.cs" Line="36" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\crowdTimer.cs" Line="18" Column="5" />
+      <File FileName="Assets\KinectView\Scripts\RightHandController.cs" Line="69" Column="39" />
+      <File FileName="Assets\KinectView\Scripts\BreakAway.cs" Line="19" Column="59" />
+      <File FileName="Assets\KinectView\Scripts\CollisionCheck.cs" Line="11" Column="6" />
+      <File FileName="Assets\KinectView\Scripts\DragAndDrop.cs" Line="107" Column="3" />
+      <File FileName="Assets\KinectView\Scripts\RightHandController1.cs" Line="21" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

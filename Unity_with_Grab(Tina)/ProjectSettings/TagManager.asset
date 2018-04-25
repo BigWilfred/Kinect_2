@@ -44,3 +44,6 @@ TagManager:
   - name: AnimationObjects
     uniqueID: 3159631395
     locked: 0
+  - name: background
+    uniqueID: 542110593
+    locked: 0
